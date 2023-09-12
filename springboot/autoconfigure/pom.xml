@@ -26,7 +26,7 @@
         <module>spring-boot-conditionalonproperty-annotation-example</module>
         <module>spring-boot-conditionalonresource-annotation-example</module>
         <module>spring-boot-conditionalonexpression-annotation-example</module>
-        <module>spring-conditional-on-web-notweb-application</module>
+        <module>spring-conditional-on-web-notweb-annotation-example</module>
     </modules>
 
     <dependencies>
