@@ -7,9 +7,10 @@
         <groupId>com.example</groupId>
         <artifactId>autoconfigure</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>spring-boot-conditionalonresource-annotation-example</artifactId>
+    <artifactId>conditionalonclass-annotation-example</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
