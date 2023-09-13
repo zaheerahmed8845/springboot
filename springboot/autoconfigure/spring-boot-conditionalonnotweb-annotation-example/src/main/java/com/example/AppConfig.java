@@ -5,9 +5,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-//@ConditionalOnWebApplication
 @ConditionalOnNotWebApplication
-class SpringConfigOnWebNotWebApp {
+class AppConfig {
 
 	@Bean
 	public Module module() {
