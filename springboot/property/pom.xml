@@ -9,24 +9,16 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>autoconfigure</artifactId>
+    <artifactId>property</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>value-annotation-example</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <modules>
-        <module>conditionalonbean-annotation-example</module>
-        <module>conditionalonmissingbean-annotation-example</module>
-        <module>conditionalonmissingclass-annotation-example</module>
-        <module>conditionalonproperty-annotation-example</module>
-        <module>conditionalonresource-annotation-example</module>
-        <module>conditionalonexpression-annotation-example</module>
-        <module>conditionalonweb-annotation-example</module>
-        <module>conditionalonnotweb-annotation-example</module>
-    </modules>
 
 </project>

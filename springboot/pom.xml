@@ -21,13 +21,16 @@
 
     <modules>
         <module>autoconfigure</module>
-        <module>autoconfigure/spring-boot-conditionalonclass-annotation-example</module>
+        <module>autoconfigure/conditionalonclass-annotation-example</module>
+        <module>property</module>
+        <module>property/application-properties-annotation-example</module>
+        <module>profiles</module>
     </modules>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot</artifactId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
     </dependencies>
 
