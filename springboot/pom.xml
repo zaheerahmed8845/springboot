@@ -21,9 +21,7 @@
 
     <modules>
         <module>autoconfigure</module>
-        <module>autoconfigure/conditionalonclass-annotation-example</module>
         <module>property</module>
-        <module>property/application-properties-annotation-example</module>
         <module>profiles</module>
     </modules>
 
