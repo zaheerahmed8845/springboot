@@ -27,6 +27,7 @@
         <module>conditionalonexpression-annotation-example</module>
         <module>conditionalonweb-annotation-example</module>
         <module>conditionalonnotweb-annotation-example</module>
+        <module>conditionalonclass-annotation-example</module>
     </modules>
 
 </project>

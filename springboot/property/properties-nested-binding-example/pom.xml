@@ -5,18 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>springboot</artifactId>
+        <artifactId>property</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>property</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>value-annotation-example</module>
-        <module>properties-binding-example</module>
-        <module>application-properties-annotation-example</module>
-        <module>properties-nested-binding-example</module>
-    </modules>
+    <artifactId>properties-nested-binding-example</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
